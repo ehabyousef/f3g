@@ -14,7 +14,7 @@ const Contact = lazy(() => import("./Components/Contact"));
 const Notfound = lazy(() => import("./Components/Notfound"));
 const Login = lazy(() => import("./Components/Login"));
 const Signup = lazy(() => import("./Components/Signup"));
-const Team = lazy(() => import("./Components/Team"));c
+const Team = lazy(() => import("./Components/Team"));
 function App() {
   const [navappear, setnavappear] = useState(true);
   let [favItems, setFavItems] = useState([]);
