@@ -6,7 +6,6 @@ import { ProvidAuthercontext } from "./ContextApis/authContext";
 import Footer from "./Components/Footer";
 import Productdetails from "./Components/Productdetails";
 
-// Import your components
 const Navbar = lazy(() => import("./Components/Navbar"));
 const Home = lazy(() => import("./Components/Home"));
 const Addproduct = lazy(() => import("./Components/Addproduct"));
@@ -21,7 +20,6 @@ const Team = lazy(() => import("./Components/Team"));
 
 function App() {
   const [navappear, setnavappear] = useState(true);
-  // hadeer
   let [favItems, setFavItems] = useState([]);
   let [search, setSearch] = useState({ searchVal: "" });
   const handleFav = (p) => {
