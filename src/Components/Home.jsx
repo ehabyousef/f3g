@@ -1,4 +1,3 @@
-import React, { useEffect, useMemo, useState } from "react";
 import Style from "../Styles/home.module.css";
 import { Link } from "react-router-dom";
 
