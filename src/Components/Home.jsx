@@ -20,7 +20,6 @@ const Home = (props) => {
         </p>
         <div className="btns">
           <div className={Style.btns}>
-            {/* <Link to={`/products`} className="btn btn-dark text-light me-2" >Our gallery</Link> */}
             <Link to={"/signup"} className="btn btn-dark text-light me-2">
               Sign up Now
             </Link>
