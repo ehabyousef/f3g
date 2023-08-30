@@ -10,7 +10,7 @@ let initalCart = localStorage.getItem("data")
 export const ProvidAuthercontext = (props) => {
   //ehab
   const [cartItems, setCartItems] = useState(initalCart);
-  function addItem(item) {
+  function addItem(items) {
     let exist = cartItems.find((elm) => elm.id === item.id);
     if (exist) {
       setCartItems((prevItems) =>
