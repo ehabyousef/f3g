@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import { useState } from "react";
 import { ProvidAuthercontext } from "./ContextApis/authContext";
-import Footer from "./Components/Footer";
 import Productdetails from "./Components/Productdetails";
 const Navbar = lazy(() => import("./Components/Navbar"));
 const Home = lazy(() => import("./Components/Home"));
