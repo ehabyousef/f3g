@@ -55,13 +55,6 @@
       "password": "123456",
       "usertype": "customer",
       "id": 9
-    },
-    {
-      "name": "fss",
-      "email": "kha@dasd.com",
-      "password": "147852",
-      "usertype": "customer",
-      "id": 10
     }
   ]
 }
