@@ -15,13 +15,18 @@ const Productdetails = () => {
   useEffect(() => {
     getPrds();
     console.log(prds);
-  }, []);
+  }, [getPrds, prds]);
   return (
     <>
       <div className="container">
         <h1>Dish Name : {prds.name}</h1>
         <div className="card w-50 d-block m-auto">
-          <img style={{height:'450px'}} src={prds.imgUrl} className="card-img-top" alt="..." />
+          <img
+            style={{ height: "450px" }}
+            src={prds.imgUrl}
+            className="card-img-top"
+            alt="..."
+          />
           <div className="card-body">
             <p className="card-text fs-4 fw-bold ">
               id :
