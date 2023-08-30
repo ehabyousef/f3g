@@ -20,7 +20,7 @@ const Cart = () => {
               <div className="cart-item overflow-hidden text-center">
                 <hr />
                 <div className="cart-img float-start px-3 mt-3">
-                  <img className="w-100" src={vals.imgUrl} alt="" />
+                  <img className="w-100" src={val.imgUrl} alt="" />
                 </div>
                 <div className="cart-action float-start">
                   <h6>{val.title}</h6>
