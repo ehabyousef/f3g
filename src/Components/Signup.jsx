@@ -21,7 +21,7 @@ const Signup = (props) => {
   let handleChange = (e) => {
     const { name, value } = e.target;
     setUser((old) => ({
-      ...old,
+      ...old,mm
       [name]: value,
     }));
   };

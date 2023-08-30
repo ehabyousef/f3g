@@ -6,7 +6,7 @@ import style from "../Styles/fav.module.css";
 function Fav({ favItems, handleFav, search }) {
   let fav = favItems.filter((i) => i.fav);
   let [searchgingForPrdcts, setSearchgingForPrdcts] = useState([]);
-  let [selected, setSelected] = useState();
+  let [selected, setSelected] = useState();a
 
   const [prds, setPrds] = useState([]);
   const getPrds = useCallback(() => {

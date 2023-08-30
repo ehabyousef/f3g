@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="row">
         <div className="col-md-8">
           <form action="" className={Style.form}>
-            <h1>Contact Us</h1>
+            <h1>Contacts Us</h1>
             <div className="form-floating mb-3">
               <input type="email" className="form-control" id="email" />
               <label htmlFor="email"> Your Email</label>
