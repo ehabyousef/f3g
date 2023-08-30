@@ -14,7 +14,7 @@ export const ProvidAuthercontext = (props) => {
     let exist = cartItems.find((elm) => elm.id === item.id);
     if (exist) {
       setCartItems((prevItems) =>
-        prevItems.filter((vaslue) => value.id !== item.id)
+        prevItems.filter((value) => value.id !== item.id)
       );
     } else {
       setCartItems((prevItems) => [...prevItems, { ...item, qty: 1 }]);
