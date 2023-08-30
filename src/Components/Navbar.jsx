@@ -18,7 +18,7 @@ const Navbar = ({ setSearch, search }) => {
 
   let [showSearchField, setShowSearchField] = useState(false);
 
-  let handleChange = (es) => {
+  let handleChange = (e) => {
     let { name, value } = e.target;
     setSearch((prev) => ({
       ...prev,
