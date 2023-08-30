@@ -13,7 +13,7 @@ const Footer = () => {
               <p className="p-2 text-white fs-5 opacity-75">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 dolore labore corrupti laborum expedita praesentium consequuntur
-                ipsa ipsum in.
+                ipsa ipsum in accusantium.
               </p>
             </div>
             <div className="col-md-3 col-sm-6 justify-content-center ">
