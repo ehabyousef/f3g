@@ -11,7 +11,7 @@ const Home = (props) => {
   props.show(false);
   return (
     <div className={Style.container}>
-      <div className={Style.text}>c
+      <div className={Style.text}>
         <h1>pizza online</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ad

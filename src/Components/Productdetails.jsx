@@ -14,7 +14,7 @@ const Productdetails = () => {
   }, [id]);
   useEffect(() => {
     getPrds();
-    console.log(prds);ww
+    console.log(prds);
   }, []);
   return (
     <>
