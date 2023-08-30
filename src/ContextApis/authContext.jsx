@@ -6,7 +6,7 @@ import { useState } from "react";
 const AuthContext = createContext();
 let initalCart = localStorage.getItem("data")
   ? JSON.parse(localStorage.getItem("data"))
-  : [];
+  : [];ss
 export const ProvidAuthercontext = (props) => {
   //ehab
   const [cartItems, setCartItems] = useState(initalCart);
