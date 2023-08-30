@@ -16,8 +16,7 @@ const Home = (props) => {
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ad
           perferendis nesciunt dicta debitis nihil saepe aperiam ut? Eum
-          corporis animi minus pariatur vitae impedit dolores commodi molestiae
-          sit quisquam!
+          corporis animi minus pariatur vitae impedit dolores commodi
         </p>
         <div className="btns">
           <div className={Style.btns}>
