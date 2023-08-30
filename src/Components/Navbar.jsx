@@ -258,7 +258,6 @@ const Navbar = ({ setSearch, search }) => {
         </div>
         <div className="offcanvas-body">
           <Cart />
-
           {cartItems.length !== 0 ? (
             <>
               <h2 className="fs-2 w-100 text-center">
