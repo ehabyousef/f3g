@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import { useState } from "react";
 import { ProvidAuthercontext } from "./ContextApis/authContext";
-import Productdetails from "./Components/Productdetails";
 const Navbar = lazy(() => import("./Components/Navbar"));
 const Home = lazy(() => import("./Components/Home"));
 const Addproduct = lazy(() => import("./Components/Addproduct"));
@@ -15,7 +14,7 @@ const Notfound = lazy(() => import("./Components/Notfound"));
 const Login = lazy(() => import("./Components/Login"));
 const Signup = lazy(() => import("./Components/Signup"));
 const Team = lazy(() => import("./Components/Team"));
-const Productdetails = lazy(() => import("./Components/Team"));
+const Productdetails = lazy(() => import("./Components/Productdetails"));
 function App() {
   const [navappear, setnavappear] = useState(true);
   let [favItems, setFavItems] = useState([]);
