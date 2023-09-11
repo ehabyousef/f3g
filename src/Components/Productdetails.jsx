@@ -19,7 +19,7 @@ const Productdetails = () => {
   return (
     <>
       <div className="container">
-        <h1>Dish Name : {prds.name}</h1>
+        <h1 className="my-4">Dish Name : {prds.name}</h1>
         <div className="card w-50 d-block m-auto">
           <img
             style={{ height: "450px" }}
