@@ -27,7 +27,7 @@ const Addproduct = () => {
         Navigate('/products')
     }
     return (
-        <div>
+        <div className='p-5'>
             <h1>Add Product</h1>
             <form action="" onSubmit={addprd}>
                 <div className="form-floating mb-3">

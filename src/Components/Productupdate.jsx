@@ -49,10 +49,10 @@ const Productupdate = () => {
     Navigate("/products");
   };
   return (
-    <div>
+    <div className="p-5">
       <h1>Updating :{prod.name}</h1>
       <form action="" onSubmit={updateprd}>
-        <div className="form-floating mb-3">
+        <div className="form-floating my-4">
           <input
             type="text"
             className="form-control"
