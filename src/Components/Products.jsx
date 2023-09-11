@@ -87,16 +87,14 @@ const Products = ({ handleFav, favItems, search }) => {
     <>
       <div className="container my-2">
         <div
-          className={`text-center py-5 ${
-            searchgingForPrdcts.length === 0 ? "d-block" : "d-none"
-          }`}
+          className={`text-center py-5 ${searchgingForPrdcts.length === 0 ? "d-block" : "d-none"
+            }`}
         >
           <h5>Sorry, can't find matching products</h5>
         </div>
         <button
-          className={`btn btn-success ${
-            searchgingForPrdcts.length === 0 ? "d-none" : "d-block"
-          }`}
+          className={`btn btn-success ${searchgingForPrdcts.length === 0 ? "d-none" : "d-block"
+            }`}
           onClick={handleOutOfStock}
         >
           Filter
@@ -175,7 +173,7 @@ const Products = ({ handleFav, favItems, search }) => {
                         Delete
                       </button>
                       <Link
-                        to={`/product/${p.id}`}
+                        to={`/productUpdate/${p.id}`}
                         className="btn btn-primary btn-sm"
                       >
                         Update

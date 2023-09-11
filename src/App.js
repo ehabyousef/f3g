@@ -84,7 +84,7 @@ function App() {
             <Route path="add" element={<Addproduct />} />
             <Route path="product/:id" element={<Productdetails />} />
             <Route
-              path="product/:id"
+              path="productUpdate/:id"
               element={<Productupdate search={search} />}
             />
             <Route path="contact" element={<Contact />} />
